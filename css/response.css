@@ -1,0 +1,28 @@
+@media screen and (max-width:1041px) {
+	.magall{
+		width: 70vw;
+	}
+	.card{
+		width: 70vw;
+	}
+	.row{
+		flex-direction: column;
+	}
+	.burger{
+		display: block;
+		cursor: pointer;
+	}
+	.navbar{
+		flex-direction: column;
+	}
+	.nav{
+		flex-direction: column;
+		display: none;
+	}
+	.main h1{
+		font-size: 10vh;
+	}
+	.logo{
+		display: none;
+	}
+}

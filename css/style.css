@@ -1,0 +1,92 @@
+html{
+	scroll-behavior: smooth;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+.home{
+	background-attachment: fixed;
+	background-image: url('../images/bg.png');
+	height: 84.4vh;
+}
+.navbar{
+	position: sticky;
+	top: 0%;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+}
+.logo{
+	width: 50%;
+	display: flex;
+}
+.logo img{
+	border-radius: 16%;
+	width: 6.7rem;
+}
+.logo h2{
+	font-size: 85px;
+	color: #F8EFBA;
+}
+.nav{
+	display: flex;
+	width: 50%;
+	text-align: right;
+	justify-content: flex-end;
+}
+.nav a{
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	margin: 30px;
+}
+.nav a::first-letter{
+	font-size: 40px;
+	color: #F8E3BA;
+}
+.nav a:hover{
+	transition: all 200ms ease-in-out;
+	color: #F8EFBA;
+}
+.nav a:hover::after{
+	content: "||";
+}
+.nav a:hover::before{
+	content: "||";
+}
+.main{
+	float: left;
+}
+.main h1{
+	color: white;
+	font-size: 30vh;
+	width: 50%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.burger{
+	font-size: 5vh;
+	display: none;
+}
+.row{
+	display: flex;
+}
+.magall{
+	height: 60vh;
+	width: 23vw;
+	margin: 29px;
+}
+.card{
+	background-color: #1B9CFC;
+	height: 70vh;
+	width: 23vw;
+	margin: 29px;
+	transition: 200ms;
+	overflow: hidden;
+}
+.card-img{
+	height: 100%;
+	width: 100%;
+	transition: 200ms;
+}
+.card-img:hover{
+	height: 50%;
+}
